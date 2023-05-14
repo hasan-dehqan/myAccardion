@@ -1,0 +1,15 @@
+.Attractive{
+    width: 80%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    transition:  all .5s;
+    background: #FFEFBA;  
+    background: -webkit-linear-gradient(to top, #FFFFFF, #FFEFBA);  
+    background: linear-gradient(to top, #FFFFFF, #FFEFBA); 
+
+}

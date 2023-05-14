@@ -1,0 +1,40 @@
+.angleUp{
+    width: 80%;
+    box-sizing: border-box;
+    background-color:#5a8dee;
+    color: #fff;
+    margin: 0 auto;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px 10px 0 0;
+    cursor: pointer;
+}
+.angleDown{
+    width: 80%;
+    box-sizing: border-box;
+    background-color:#ccc;
+    color: #000;
+    margin: 0 auto;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.itemOn{
+    font-size: 32px;
+    font-weight: bold;
+    padding: 0 10px;
+    color: #fff;
+    transform: rotate(180deg);
+    transition:  all .5s;
+}
+.itemOff{
+    font-size: 32px;
+    font-weight: bold;
+    padding: 5px  10px  0 10px;
+    color: #000;
+    transition:  all .5s;
+}
