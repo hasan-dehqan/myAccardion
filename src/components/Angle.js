@@ -20,14 +20,14 @@ class Angle extends Component {
       <>
         {this.state.flag ? (
           <div className="angleUp">
-            <h2>Attractive products</h2>
+            <h2>Digital products</h2>
             <span className="tabOn" onClick={this.change}>
               <i class="fa fa-angle-up" aria-hidden="true"></i>
             </span>
           </div>
         ) : (
           <div className="angleDown">
-            <h2>Attractive products</h2>
+            <h2>Digital products</h2>
 
             <span className="tabOff" onClick={this.change}>
               <i class="fa fa-angle-down" aria-hidden="true"></i>
