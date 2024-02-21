@@ -1,34 +1,54 @@
-h3{
+h3 {
     margin: 1em 0;
-    color: rgba(158, 36, 5, 0.5);
+    font-size: 1.5em;
 }
-h2{
+
+h2 {
     margin: 3px;
+    font-size: 2em;
+
 }
-p{
-    text-align: center;
+
+.description {
+    text-align: justify;
     padding: 7px;
+    font-size: 1.2em;
+
 }
-.imgElement{
-    width: 200px;
+
+.price {
+    background-color: yellow;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 1.2em;
+}
+
+.img_car {
+    width: 240px;
     height: 200px;
     border: 2px solid #52052c;
     border-radius: 10px;
 }
-.box{
-    width: 240px;
-    border: 2px solid #ccc;
+
+.tabbed {
     border-radius: 5px;
-    padding: 5px;
+    padding: 10px;
+    margin: 7px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    background: #F1F2B5;  
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
     background: -webkit-linear-gradient(to bottom, #135058, #F1F2B5);
-    background: linear-gradient(to bottom, #135058, #F1F2B5); 
+    background: linear-gradient(to bottom, #135058, #F1F2B5);
 
 }
-.fa-heart{
-    color:red;
+
+
+.fa-heart {
+    background-color: #135058;
+    padding: 4px 6px;
+    border-radius: 4px;
+    color: #f03e3e;
+    line-height: 1;
+    font-size: 1.2em;
 }

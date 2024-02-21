@@ -1,19 +1,19 @@
-.angleUp{
+.angleUp {
     width: 80%;
-    box-sizing: border-box;
-    background-color:#5a8dee;
+    background-color: #5a8dee;
     color: #fff;
     margin: 0 auto;
-    padding: 5px;
+    padding: 7px;
     display: flex;
     justify-content: space-between;
     border-radius: 10px 10px 0 0;
     cursor: pointer;
 }
-.angleDown{
+
+.angleDown {
     width: 80%;
     box-sizing: border-box;
-    background-color:#ccc;
+    background-color: #ccc;
     color: #000;
     margin: 0 auto;
     padding: 5px;
@@ -23,18 +23,19 @@
     cursor: pointer;
 }
 
-.itemOn{
+.tabOn {
     font-size: 32px;
     font-weight: bold;
     padding: 0 10px;
     color: #fff;
     transform: rotate(180deg);
-    transition:  all .5s;
+    transition: all .7s;
 }
-.itemOff{
+
+.tabOff {
     font-size: 32px;
     font-weight: bold;
-    padding: 5px  10px  0 10px;
+    padding: 5px 10px 0 10px;
     color: #000;
-    transition:  all .5s;
+    transition: all .5s;
 }
